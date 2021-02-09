@@ -1,0 +1,21 @@
+body {
+  background-color: #E4E4E4;
+  color: #2c2738;
+}
+
+.App {
+  background-color: white;
+  min-width: 300px;
+  max-width: 460px;
+  min-height: 100px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 2%;
+}
+
+@media screen and (max-width: 460px){
+  body {
+    margin: 0;
+  }
+}

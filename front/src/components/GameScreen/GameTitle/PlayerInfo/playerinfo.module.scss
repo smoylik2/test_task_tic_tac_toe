@@ -1,0 +1,38 @@
+.block {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playerName {
+  margin: 0;
+  width: 100%;
+}
+
+.active {
+  border: #0880ae solid 2px;
+  border-radius: 6px;
+}
+
+.team {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.score {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.forRight {
+  order: 1;
+}
+
+.forLeft {
+  &:after {
+    content: ':';
+  }
+}
